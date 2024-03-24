@@ -9,9 +9,17 @@ function marksWithinLimit(marks) {
     } else {
         return "Invalid Number!";
     }
-    //If the condition is true, it calls the studentGrades function with marks as an argument and returns its result.
-    //If the condition is false, that is, marks is not a valid number or not within the limits it returns the string "Invalid Number!".
+//If the condition is true, it calls the studentGrades function with marks as an argument and returns its result.
+//If the condition is false, that is, marks is not a valid number or not within the limits it returns the string "Invalid Number!".
 
+//To view on a browser;
+/*const marks = parseFloat(prompt("Enter the marks:"));
+    if (!isNaN(marks) && marks >= 0 && marks <= 100) {
+        const grade = studentGrades(marks);
+        alert("your grade is:" studentGrades(marks)); 
+    } else {
+        alert("Invalid Number!");  
+    }*/
 
 function studentGrades(marks) { //block scope; Variables declared within a block of code like within the studentGrades function are only accessible within that block.
     if (marks > 79) {

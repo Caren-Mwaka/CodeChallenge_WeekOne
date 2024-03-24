@@ -18,6 +18,10 @@ function speedDetector(speed){
     return `You have ${demeritPoints} demerit point/s`;
     }
     }
+    //To view on browser;
+    /*const speed = parseInt(prompt("Enter speed: "));
+    const result = speedDetector(speed);
+    alert(result);*/
    
     console.log(speedDetector(79));
  // The if else statements fulfills the conditions stipulated in the assignment, that is, If the speed is less than 70, it should print “Ok”. 

@@ -13,7 +13,7 @@ function marksWithinLimit(marks) {
 //If the condition is false, that is, marks is not a valid number or not within the limits it returns the string "Invalid Number!".
 
 //To view on a browser;
-/*const marks = parseFloat(prompt("Enter the marks:"));
+/*const marks = parseFloat(prompt("input student marks:"));
     if (!isNaN(marks) && marks >= 0 && marks <= 100) {
         const grade = studentGrades(marks);
         alert("your grade is:" studentGrades(marks)); 
